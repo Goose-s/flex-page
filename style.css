@@ -4,6 +4,7 @@
     display: flex;
     flex: 1;
     align-items: baseline;
+    margin: -15px;
 }
 .logo{
     display: flex;
@@ -32,6 +33,7 @@ a {
     background-color: #1f2937;
     padding: 6em;
     gap: 1em;
+    margin: -15px;
 }
 .img_mem{
     width: 40%;
@@ -92,6 +94,7 @@ font-size: 16px;
     flex-direction: column;
     padding: 8em;
     background-color: #e5e7eb;
+    margin: -15px;
 }
 .quote-main{
     font-size: 36px;
@@ -139,4 +142,5 @@ font-size: 16px;
     align-items: center;
     justify-content: center;
     padding: 1em;
+    margin: -15px;
 }
