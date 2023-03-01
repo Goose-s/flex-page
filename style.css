@@ -12,12 +12,14 @@
     font-size: 24px;
     color: #f9faf8;
     margin: 16px;
-    justify-content: center;
+    padding-left: 80px;
 }
 ul {
     flex: 1;
     list-style: none;
     display: flex;
+    justify-content: flex-end;
+    padding-right: 4em;
     gap: 20px;
 }
 a {
@@ -63,15 +65,32 @@ font-size: 16px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    
+    text-align: center;
+}
+.pics{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    padding-bottom: 3em;
 }
 .prof_pic{
-    
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+.information img{
+    border: 4px solid #3882f6;
+    border-radius: 6px;
 }
 .pic-info{
+    max-width: 150px;
     font-size: 18px;
 }
 .quote{
+    display: flex;
+    flex-direction: column;
+    padding: 8em;
     background-color: #e5e7eb;
 }
 .quote-main{
@@ -83,17 +102,41 @@ font-size: 16px;
     font-weight: bolder;
     color: #1f2937;
     font-size: 20px;
+    text-align: end;
 }
+
 .action{
     background-color: #3882f6;
     color: white;
+    display: flex;
+    padding: 2em;
+    margin: 6em;
+    border-radius: 6px;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    gap: 8em;
+}
+.call{
+    display: flex;
+    align-self: flex-start;
+    font-weight: bolder;
 }
 .second{
+    border: 2px solid white;
     color: white;
     background-color: #3882f6;
+    border-radius: 4px;
+    padding: 6px 28px;
+    font-weight: bold;
+    font-size: 16px;
 }
 .footer{
+    display: flex;
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
 }
