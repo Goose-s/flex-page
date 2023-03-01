@@ -1,12 +1,24 @@
-main{
-}
+
 .header {
     background-color: #1f2937;
-    color: #f9faf8;
+    display: flex;
+    flex: 1;
+    align-items: baseline;
+}
+.logo{
+    display: flex;
+    flex: 1;
+    font-weight: bold;
     font-size: 24px;
+    color: #f9faf8;
+    margin: 16px;
+    justify-content: center;
 }
 ul {
+    flex: 1;
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 a {
     font-size: 18px;
@@ -14,7 +26,18 @@ a {
     text-decoration-line: none;
 }
 .main{
+    display: flex;
     background-color: #1f2937;
+    padding: 6em;
+    gap: 1em;
+}
+.img_mem{
+    width: 40%;
+    display: flex;
+}
+.left{
+flex-wrap: wrap;
+flex: 1;
 }
 .awesome{
     font-size: 48px;
@@ -24,22 +47,26 @@ a {
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
+padding-top: 6px;
+padding-bottom: 1em;
+}
+.first{
+background-color: #3882f6;
+border-radius: 4px;
+padding: 6px 28px;
+color: white;
+border: none;
+font-weight: bold;
+font-size: 16px;
 }
 .some{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    
 }
-.first{
-background-color: #3882f6;
-}
-.right{
-    font-size: 18px;
-    color: #e5e7eb;
-    background-color: gray;
-}
-.box{
-    border-color: #3882f6;
+.prof_pic{
+    
 }
 .pic-info{
     font-size: 18px;
