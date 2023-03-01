@@ -40,6 +40,7 @@ a {
 .img_mem{
     width: 40%;
     display: flex;
+    min-width: 400px;
 }
 .left{
 flex-wrap: wrap;
